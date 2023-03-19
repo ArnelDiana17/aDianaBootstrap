@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        .carousel-item {
+            height: 36rem;
+            color: white;
+            position: relative;
+            background-position: center;
+            background-size: cover;         
+        }
+
+        .container{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 50px;
+        }
+
+        .overlay-image{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-position: center;
+                background-size: cover;
+        }
+
+        .container2{
+            background-image: url(bck1.jpg);
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        
+        .container3{
+            padding-top: 25px;
+            height: 20rem;
+            color: white;
+            position: relative;
+            background-position: center;
+            background-size: cover;   
+            
+        }
+
+    </style>
+
+<div>
+    <nav class="navbar bg-dark fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <div class="text-center">
+        <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+    <div id="myCarousel" class="carousel slide" 
+    data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0"
+            class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image:url(Dots.jpg);">    
+            <div class="container">
+            <h1>Dota2</h1>
+            <p>Dota is the deepest multi-player action RTS game ever made and there's always a new strategy or tactic to discover. It's completely free 
+            to play and always will be – start defending your ancient now.</p>
+            <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Play on Steam</a>
+    </div>
+    </div>
+          <div class="carousel-item" style="background-image:url(dots2.avif);">
+                <div class="container">
+                    <h1>Dota2</h1>
+        <p>Dota is the deepest multi-player action RTS game ever made and there's always a new strategy or tactic to discover. It's completely free 
+        to play and always will be – start defending your ancient now.</p>
+        <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Play on Steam</a>
+</div>
+    </div>
+    <div class="carousel-item" style="background-image:url(Muert.jpg);">
+        <div class="container">
+            <h1>Dota2</h1>
+        <p>Dota is the deepest multi-player action RTS game ever made and there's always a new strategy or tactic to discover. It's completely free 
+            to play and always will be – start defending your ancient now.</p>
+            <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Play on Steam</a>
+    </div>
+    </div>
+</div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container2">
+<div class="row row-cols-1 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card">
+        <img src="tiny.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">DPC Spring Tour Kickoff</h5>
+          <p class="card-text">A big congratulations from all of us here at Dota to the Gaimin Gladiators, who outlasted 17 of the best teams in the world to take top prize at The Lima Major this past weekend, earning themselves a cool 400 DPC
+             points and a strong start on this year’s road to The International.</p>
+          <a href="#" class="btn btn-danger">Read More..</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="muert2.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">The Dead Reckoning Update</h5>
+          <p class="card-text">Death’s right hand joins the battle of the Ancients with a dead eye, two fists full of iron, and ammo to spare. Help her track down souls and usher them to the afterlife (before they usher you to yours) in the Dead Reckoning Mini-game, and 
+            use your bounty to unlock all-new item sets...</p>
+          <a href="#" class="btn btn-danger">Read More...</a>,
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="omni.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Cheaters Will Never Be Welcome in Dota</h5>
+          <p class="card-text">Today, we permanently banned over 40,000 accounts that were using third-party software to cheat in Dota over the last few weeks.
+</p>
+          <a href="#" class="btn btn-danger">Read More..</a>
+        </div>
+      </div>
+    </div>
+</div>
+    </div>  
+            <div class="container3" style="background-image: url(blood.avif);">
+            <h1 class="text-center">Dota2</h1>
+            <h2 class="text-center">Dota is the deepest multi-player action RTS game ever made and there's always a new strategy or tactic to discover. It's completely free 
+            to play and always will be – start defending your ancient now.</h2>
+            <div class="d-grid gap-2 col-6 mx-auto">
+            <a href="#" class="btn btn-dark" role="button" data-bs-toggle="button">Play on Steam</a>
+            </div>
+            </div>
+    </div>
+    <footer class="text-center text-white">  
+        <div class="text-center p-3" style="background-image:url(bck1.jpg);">
+          © 2020 Copyright:FOR PRACTICE PURPOSE ONLY
+        </div>
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
